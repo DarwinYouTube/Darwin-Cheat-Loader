@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="crypt.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="inject.cpp">
+      <Filter>Inject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="isConnect.h" />
+    <ClInclude Include="crypt.h">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="dchar.h">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="inject.h">
+      <Filter>Inject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Crypt">
+      <UniqueIdentifier>{f8102527-914d-4a38-9580-0d4e63e726a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inject">
+      <UniqueIdentifier>{dad21689-f49c-456b-8535-a4fe48282f8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
